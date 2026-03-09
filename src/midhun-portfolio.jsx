@@ -57,6 +57,12 @@ const TIMELINE = [
     detail: "Planned & executed the Placement Simulation Program — mock aptitude tests, technical screening, and interview readiness workshops.",
   },
   {
+    period: "2025",
+    role: "2nd Place – Hackathon 1.0",
+    org: "Dept. of MCA, Srinivas University",
+    detail: "Competed and placed 2nd in the university hackathon, demonstrating end-to-end problem solving under time pressure.",
+  },
+  {
     period: "Jan 2025 – Feb 2026",
     role: "Team Member",
     org: "Wow! Momo",
@@ -67,12 +73,6 @@ const TIMELINE = [
     role: "BCA Student",
     org: "Srinivas University",
     detail: "Specialising in AWS Cloud, Data Analytics & AI. Active on TryHackMe for offensive security and Google Cloud for practicals.",
-  },
-  {
-    period: "2025",
-    role: "2nd Place – Hackathon 1.0",
-    org: "Dept. of MCA, Srinivas University",
-    detail: "Competed and placed 2nd in the university hackathon, demonstrating end-to-end problem solving under time pressure.",
   },
 ];
 
@@ -238,7 +238,7 @@ const Nav = () => {
         onClick={() => scrollTo("hero")}
         style={{ fontFamily: "'Playfair Display', serif", fontSize: "1.15rem", color: "#F0EDE5", background: "none", border: "none", cursor: "none", letterSpacing: "0.04em" }}
       >
-        MR<span style={{ color: "#ABD1C6" }}>.</span>
+        MRj<span style={{ color: "#ABD1C6" }}>.</span>
       </button>
 
       {/* Desktop */}
