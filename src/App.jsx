@@ -1,9 +1,11 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import App from "./App";
+import Portfolio from "./midhun-portfolio";
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+function App() {
+  return (
+    <div>
+      <Portfolio />
+    </div>
+  );
+}
+
+export default App;
