@@ -329,7 +329,7 @@ const Hero = () => {
           transform: loaded ? "translateY(0)" : "translateY(20px)", opacity: loaded ? 1 : 0,
           transition: "all 0.6s ease 0.1s",
         }}>
-          Midhun Raj M — Cybersecurity &amp; Developer
+          Hello
         </p>
 
         <h1 style={{
@@ -338,7 +338,7 @@ const Hero = () => {
           lineHeight: 1.02, fontWeight: 900, color: "#F0EDE5",
           letterSpacing: "-0.02em", marginBottom: "0.3rem",
         }}>
-          {["Building", "Defenses"].map((word, wi) => (
+          {["Midhun", "Raj"].map((word, wi) => (
             <span
               key={word}
               style={{
@@ -434,7 +434,7 @@ const About = () => {
         </div>
         <div>
           <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: "1rem", color: "#F0EDE5", opacity: 0.68, lineHeight: 1.85, marginBottom: "1.5rem" }}>
-            I am a Cybersecurity-focused BCA student at Srinivas University (Pandeswar), Mangaluru. My philosophy: understanding how systems are broken is the most effective way to protect them.
+            I am a Cybersecurity-focused BCA student at Srinivas University Mangaluru. My philosophy: understanding how systems are broken is the most effective way to protect them.
           </p>
           <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: "1rem", color: "#F0EDE5", opacity: 0.68, lineHeight: 1.85, marginBottom: "2.5rem" }}>
             My time at Wow! Momo — handling billing and high-volume customer pressure — has unexpectedly sharpened skills I now translate into incident response: composure, precision, and communication under fire.
